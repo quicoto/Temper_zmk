@@ -36,7 +36,7 @@ layers:
   - {t: ↹, h: LEFT CONTROL}
   - ⏎
   - {t: ␣, h: Symbol}
-  - {t: ⌦, h: Function}
+  - {t: DELETE, h: Function}
   Symbol:
   - '1'
   - '2'
