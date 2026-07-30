@@ -3,176 +3,98 @@ layers:
   Base:
   - Q
   - W
-  - F
-  - P
-  - B
-  - J
-  - L
-  - U
+  - E
+  - R
+  - T
   - Y
-  - ''''
-  - {t: A, h: Shift}
-  - {t: R, h: Win}
-  - {t: S, h: LEFT CONTROL}
-  - {t: T, h: AltGr}
+  - U
+  - I
+  - O
+  - P
+  - A
+  - S
+  - D
+  - F
   - G
+  - H
+  - J
   - K
-  - {t: N, h: AltGr}
-  - {t: E, h: RIGHT CONTROL}
-  - {t: I, h: Win}
+  - L
   - {t: O, h: Shift}
-  - Z
+  - {t: Z, h: Shift}
   - X
   - C
-  - D
   - V
+  - B
+  - N
   - M
-  - H
   - ','
   - .
-  - {t: /, h: \}
-  - {t: ⏎, h: NUMERICAL}
-  - {t: ↹, h: navi_right}
-  - {t: ⌫, h: AltGr}
-  - ␣
-  - {t: ⏎, h: navi_left}
-  - {t: ⌦, h: F1_F12}
-  BLT:
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - BT CLR
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - BT 1
-  - BT 2
-  - BT 3
-  - BT 4
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - Tog Mic
-  - Vol Up
-  - Vol Down
-  - {t: ▽, type: trans}
-  - BT 5
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {type: held}
-  - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  navi_right:
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - ^
-  - '&'
-  - '*'
-  - (
-  - )
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - Alt
-  - {t: ▽, type: trans}
-  - Scroll ↑
-  - ←
-  - UP ARROW
-  - DOWN ARROW
-  - →
-  - Undo
-  - Redo
-  - Cut
-  - Copy
-  - Paste
-  - Scroll ↓
+  - {t: /, h: Shift}
+  - {t: Esc, h: Alt}
+  - LEFT COMMAND
+  - {t: ↹, h: LEFT CONTROL, type: held}
+  - {t: ⏎, type: held}
+  - {t: ␣, h: Symbol}
+  - {t: ⌦, h: Function}
+  Symbol:
+  - '1'
+  - '2'
+  - '3'
+  - '4'
+  - '5'
+  - '6'
+  - '7'
+  - '8'
+  - '9'
+  - '0'
+  - '~'
   - Home
   - PAGE UP
   - PAGE DOWN
-  - End
-  - {t: ▽, type: trans}
-  - {type: held}
-  - {t: ▽, type: trans}
-  - _
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  navi_left:
-  - '!'
-  - '@'
-  - '#'
-  - $
-  - '%'
+  - {t: End, h: sticky}
+  - LEFT ARROW
+  - DOWN ARROW
+  - UP ARROW
+  - RIGHT ARROW
+  - ;
+  - Shift
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - VOLUME UP
-  - {t: ▽, type: trans}
-  - '{'
+  - Gui+-
+  - '='
   - '['
-  - (
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - ⏮
-  - ⏯
-  - ⏭
-  - MUTE
-  - {t: ▽, type: trans}
-  - '}'
   - ']'
-  - )
+  - {t: Gui+|, h: Shift}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - Vol Down
-  - {t: ▽, type: trans}
-  - '|'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
-  F1_F12:
+  Function:
   - F1
   - F2
   - F3
   - F4
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - F5
   - F6
   - F7
   - F8
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - F9
   - F10
   - F11
   - F12
+  - PREVIOUS
+  - ⏯
+  - ⏭
+  - MUTE
+  - Vol Down
+  - VOLUME UP
+  - BRIGHTNESS DEC
+  - BRIGHTNESS INC
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -184,81 +106,11 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
-  NUMERICAL:
-  - Calc
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - +
-  - '7'
-  - '8'
-  - '9'
-  - '-'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - '*'
-  - '4'
-  - '5'
-  - '6'
-  - {t: /, h: ➗}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - .
-  - '1'
-  - '2'
-  - '3'
-  - ','
-  - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - '0'
-  - {t: ▽, type: trans}
-  - '='
-  focus_switch:
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - Gui+7
-  - Gui+8
-  - Gui+9
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - Gui+4
-  - Gui+5
-  - Gui+6
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - Gui+1
-  - Gui+2
-  - Gui+3
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
-  - {type: held}
-  - {t: ▽, type: trans}
 combos:
 - p: [10, 19]
   k: CAPSLOCK
@@ -297,37 +149,28 @@ combos:
   k: ESCAPE
   l: [Base]
 - p: [32, 33]
-  k: BLT
+  k: Base
 - p: [16, 17]
   k: Gui+←
-  l: [focus_switch]
 - p: [19, 18]
   k: Gui+→
-  l: [focus_switch]
 - p: [7, 8]
   k: Gui+UP ARROW
-  l: [focus_switch]
 - p: [17, 18]
   k: Gui+DOWN ARROW
-  l: [focus_switch]
 - p: [16, 17, 18]
   k: Gui+Sft+←
-  l: [focus_switch]
 - p: [19, 18, 17]
   k: Gui+Sft+→
-  l: [focus_switch]
 - p: [16, 17, 18]
   k: '='
-  l: [NUMERICAL]
 - p: [16, 17]
   k: (
-  l: [NUMERICAL]
 - p: [18, 19]
   k: )
-  l: [NUMERICAL]
 - p: [20, 23]
   k: ⌦
 - p: [14, 15]
   k: {t: Base, h: toggle}
 - p: [33, 34]
-  k: focus_switch
+  k: Base
