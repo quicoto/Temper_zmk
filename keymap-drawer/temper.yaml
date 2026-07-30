@@ -259,43 +259,6 @@ layers:
   - {type: held}
   - {type: held}
   - {t: ▽, type: trans}
-  mouse:
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - Scroll ↑
-  - Mouse ←
-  - Mouse ↑
-  - Mouse ↓
-  - Mouse →
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - Scroll ↓
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - Left Click
-  - Middle Click
-  - Right Click
 combos:
 - p: [10, 19]
   k: CAPSLOCK
@@ -365,6 +328,6 @@ combos:
 - p: [20, 23]
   k: ⌦
 - p: [14, 15]
-  k: {t: mouse, h: toggle}
+  k: {t: Base, h: toggle}
 - p: [33, 34]
   k: focus_switch
