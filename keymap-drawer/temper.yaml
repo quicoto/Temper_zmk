@@ -61,9 +61,9 @@ layers:
   - Shift
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - Gui+-
   - Gui++
+  - '-'
   - '='
   - '['
   - ']'
