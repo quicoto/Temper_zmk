@@ -121,10 +121,10 @@
 
         Symbol {
             bindings = <
-  &kp NUMBER_1    &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4   &kp N5           &kp NUMBER_6    &kp N7          &kp N8            &kp N9             &kp N0
-  &kp GRAVE       &kp HOME      &kp PAGE_UP   &kp PAGE_DOWN  &sk END          &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW      &kp RIGHT_ARROW    &kp SEMI
-  &kp LEFT_SHIFT  &trans        &trans        &trans         &kp LG(MINUS)    &kp LG(PLUS)    &kp EQUAL       &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &mt RIGHT_SHIFT LG(PIPE)
-                                &trans        &trans         &trans           &trans          &trans          &trans
+  &kp NUMBER_1    &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4   &kp N5          &kp NUMBER_6    &kp N7          &kp N8            &kp N9             &kp N0
+  &kp GRAVE       &kp HOME      &kp PAGE_UP   &kp PAGE_DOWN  &sk END         &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW      &kp RIGHT_ARROW    &kp SEMI
+  &kp LEFT_SHIFT  &trans        &trans        &kp LG(MINUS)  &kp LG(PLUS)    &kp MINUS       &kp EQUAL       &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &mt RIGHT_SHIFT LG(PIPE)
+                                &trans        &trans         &trans          &trans          &trans          &trans
             >;
         };
 
