@@ -67,7 +67,7 @@ layers:
   - '='
   - '['
   - ']'
-  - {t: Gui+|, h: Shift}
+  - {t: '|', h: Shift}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
